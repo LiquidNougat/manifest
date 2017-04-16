@@ -24,7 +24,7 @@
            remote="aosp"
            sync-j="8" />
 
-  <project path="build" name="LiquidNougat/build" groups="pdk" remote="github" revision="ng2" >
+  <project path="build" name="build" groups="pdk" remote="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
