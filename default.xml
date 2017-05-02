@@ -20,7 +20,7 @@
            revision="master"
            fetch="https://github.com/UBERROMS/" />
 
-  <default revision="refs/tags/android-7.1.2_r5"
+  <default revision="refs/tags/android-7.1.2_r11"
            remote="aosp"
            sync-j="8" />
 
