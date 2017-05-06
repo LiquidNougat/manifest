@@ -486,8 +486,8 @@
   <project path="device/moto/shamu" name="device_moto_shamu" remote="nougat" />
 
   <!-- Device vendors -->
-  <project path="vendor/huawei" name="vendor_huawei" remote="uber" />
-  <project path="vendor/moto" name="vendor_moto_shamu" remote="uber" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="nougat" />
+  <project path="vendor/moto" name="vendor_moto" remote="nougat" />
 
   <!-- Kernel sources -->
   <project path="kernel/huawei/angler" name="chadouming/faster-angler" remote="github" revision="master" />
