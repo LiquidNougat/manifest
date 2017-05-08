@@ -74,7 +74,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="nougat" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
   <project path="external/clang" name="external_clang" groups="pdk" remote="uber" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" remote="uber" />
