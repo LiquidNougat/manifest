@@ -13,7 +13,7 @@
            fetch="https://github.com/" />
 
   <remote  name="nougat"
-           revision="ng"
+           revision="ng2"
            fetch="https://github.com/LiquidNougat/" />
 
   <remote  name="uber"
