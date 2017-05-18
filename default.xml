@@ -22,6 +22,7 @@
 
   <default revision="refs/tags/android-7.1.2_r8"
            remote="aosp"
+	   sync-c="true"
            sync-j="8" />
 
   <project path="build" name="build" groups="pdk" remote="nougat" >
