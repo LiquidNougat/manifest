@@ -77,6 +77,10 @@
   <project path="device/huawei/angler" name="device_huawei_angler" remote="nougat" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="nougat" />
 
+  <!-- Device Vendors -->
+  <project path="vendor/huawei" name="vendor_huawei" remote="nougat" />
+  <project path="vendor/moto" name="vendor_moto" remote="nougat" />
+
   <!-- Google AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -487,10 +491,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
-
-  <!-- Device vendors -->
-  <project path="vendor/huawei" name="vendor_huawei" remote="nougat" />
-  <project path="vendor/moto" name="vendor_moto" remote="nougat" />
 
   <!-- Kernel sources -->
   <project path="kernel/huawei/angler" name="DespairFactor/angler" remote="github" revision="rebase" />
